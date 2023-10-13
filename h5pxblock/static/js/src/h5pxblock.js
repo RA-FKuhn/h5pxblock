@@ -21,6 +21,7 @@ function H5PPlayerXBlock(runtime, element, args) {
                 user: userObj,
                 saveFreq: args.saveFreq,
                 customJs: args.customJsPath,
+                customCss: './mia_style.css',
                 contentUserData: [{
                     state: args.userData
                 }],
